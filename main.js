@@ -27,9 +27,9 @@ todoBtn.addEventListener('click', function (event) {
     //Delete button eventlistener
     deleteBtn.addEventListener('click', function () {
         newItem.style.display = 'none';
+        //newItem.classList.add('flip');
         deleteBtn.style.display = 'none';
         checkBtn.style.display = 'none';
-        newItem.style.animation = 'fadeOut';
     });
 
     //Create check button 

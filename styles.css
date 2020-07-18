@@ -9,6 +9,7 @@
     width: 232px;
     padding: 7px;
     font-size: 16px;
+    transition: all 200ms ease-in-out;
 }
 body {
     background-color: #404040;
@@ -68,6 +69,7 @@ header {
     border: none;
     background-color: white;
     padding: 5px;
+    transition: all 200ms ease-in-out;
 }
 .trash-btn:hover {
     color:#cd6155 ;
@@ -77,6 +79,7 @@ header {
     border: none;
     background-color: white;
     padding: 5px;
+    transition: all 200ms ease-in-out;
 }
 .check-btn:hover {
     color: #28b463;
@@ -84,4 +87,9 @@ header {
 
 .fade {
     opacity: 0.7;
+}
+.flip {
+    transition: all 600ms ease-in-out;
+    transform: rotate(360deg);
+    opacity: 0;
 }
